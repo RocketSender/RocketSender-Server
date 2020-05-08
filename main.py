@@ -23,6 +23,11 @@ def not_found(error):
     return make_response(jsonify({'status': 'error', 'error': 'File is too large'}), 400)
 
 
+@app.route('/policy')
+def get_policy():
+    return open('policy.html', encoding='utf-8').read()
+
+
 if __name__ == '__main__':
     app.register_blueprint(blueprint)
     app.run(host='0.0.0.0', port=8080, debug=True, ssl_context='adhoc')
