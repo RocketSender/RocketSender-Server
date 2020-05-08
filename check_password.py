@@ -12,7 +12,7 @@ def check_password(passwd):
     if not any(char.islower() for char in passwd):
         return False
 
-    with open('pass.txt') as f:
+    with open('pass.txt', 'r', encoding='utf-8') as f:
         dic = f.readlines()
 
     if passwd in dic:
