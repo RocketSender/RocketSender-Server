@@ -14,12 +14,12 @@ def not_found(error):
 
 
 @app.errorhandler(500)
-def not_found(error):
+def server_error(error):
     return make_response(jsonify({'status': 'error', 'error': 'Invalid server request'}), 400)
 
 
 @app.errorhandler(413)
-def not_found(error):
+def large_content(error):
     return make_response(jsonify({'status': 'error', 'error': 'File is too large'}), 400)
 
 
