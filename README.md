@@ -1,6 +1,6 @@
 # Rocket Sender Server
 [![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
-![Platform](https://img.shields.io/badge/Platform-Windows/Linux-brightgreen)
+![Platform](https://img.shields.io/badge/Platform-Windows/Linux/Mac OS-brightgreen)
 [![license](https://img.shields.io/github/license/RocketSender/RocketSender-Android)](https://github.com/RocketSender/RocketSender-Android/blob/master/LICENSE)
 ![version](https://img.shields.io/badge/Version-Beta%20v0.1-yellow)
 [![issue](https://img.shields.io/github/issues/RocketSender/RocketSender-Android)](https://github.com/RocketSender/RocketSender-Android/issues)
